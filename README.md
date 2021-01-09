@@ -16,3 +16,4 @@ IMAGE_TYPE=<format>
 ```
 
 An example is in `.env.example` or you can just rename `.env.example` to `.env`.
+# devassign
