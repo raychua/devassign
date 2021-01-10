@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: $CIRCLE_BRANCH-devassign
+    environment: devassign
 global:
   application_name: Shop
   default_ec2_keyname: devassign
