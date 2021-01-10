@@ -6,6 +6,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: check version
+          command: node --version
+      - run:
           name: node/test
           command: npm run test
       - run:
