@@ -5,5 +5,5 @@ global:
   application_name: Shop
   default_ec2_keyname: devassign
   default_platform: Node.js 12 running on 64bit Amazon Linux 2
-  default_region: southeast-1
+  default_region: ap-southeast-1
   sc: git
