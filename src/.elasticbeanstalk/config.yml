@@ -1,0 +1,9 @@
+branch-defaults:
+  master:
+    environment: $CIRCLE_BRANCH-devassign
+global:
+  application_name: Shop
+  default_ec2_keyname: devassign
+  default_platform: Node.js 12 running on 64bit Amazon Linux 2/5.2.4
+  default_region: eu-west-1
+  sc: git
