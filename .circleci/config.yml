@@ -1,7 +1,6 @@
 version: 2
 jobs:
   deploy:
-    working_directory: ~/app
     docker:
       - image: cimg/node:15.5.1
     steps:
