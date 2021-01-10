@@ -30,7 +30,7 @@ jobs:
 
       - run:
           name: Deploying
-          command: eb deploy $CIRCLE_BRANCH-devassign
+          command: eb deploy MASTER-devassign
 
 workflows:
   version: 2
@@ -41,4 +41,4 @@ workflows:
             branches:
               only:
                 - staging
-                - MASTER
+                - master
