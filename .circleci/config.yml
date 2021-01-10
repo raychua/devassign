@@ -9,6 +9,9 @@ jobs:
           name: check version
           command: node --version
       - run:
+          name: npm install
+          command: npm install
+      - run:
           name: node/test
           command: npm run test
       - run:
