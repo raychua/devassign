@@ -30,7 +30,7 @@ jobs:
 
       - run:
           name: Deploying
-          command: eb deploy MASTER-devassign
+          command: eb deploy devassign
 
 workflows:
   version: 2
